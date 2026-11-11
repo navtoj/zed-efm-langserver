@@ -1,0 +1,22 @@
+id = "efm-language-server"
+name = "EFM Language Server"
+version = "0.0.1"
+schema_version = 1
+authors = ["Navtoj Chahal <zed.efm-langserver@navtoj.com>"]
+description = "A connector for efm-langserver, the general-purpose language server."
+repository = "https://github.com/navtoj/zed-efm-langserver"
+
+[language_servers.efm-langserver]
+name = "EFM Language Server"
+languages = [
+  "Swift",
+  # Add more here.
+]
+opt_in_languages = [
+  "Swift",
+  # Add more here.
+]
+
+[language_servers.efm-langserver.language_ids]
+Swift = "swift"
+# Add more here.

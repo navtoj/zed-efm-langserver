@@ -1,0 +1,12 @@
+[package]
+name = "efm-langserver"
+version = "0.0.1"
+edition = "2024"
+licence = "GNU GPLv3"
+
+[lib]
+path = "lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
